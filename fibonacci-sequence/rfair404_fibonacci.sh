@@ -8,15 +8,16 @@ next()
 new=$(($prev + $num))
 prev=$num
 num=$new
-echo $new
+banner -w 40 $new
 }
 generate()
 {
 TIMES=20
 while [ $TIMES -gt 0 ]; do
+	clear
 	next
-	sleep .5
-	echo ...
+	sleep 1
+	echo " "
 	let TIMES=TIMES-1
 done
 }
