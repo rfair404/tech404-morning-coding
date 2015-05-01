@@ -7,6 +7,6 @@ Please place your example in `is-it-prime/yourname_prime.*
 
 ### Past excercises...
 4/30/2015 - Post a visual representation of the Fibonacci Sequence
-Please place your example in `/fibonacci/yourname_fibonacci.*`
+Please place your example in `fibonacci/yourname_fibonacci.*`
 
 
